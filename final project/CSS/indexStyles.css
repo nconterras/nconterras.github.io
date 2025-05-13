@@ -3,7 +3,7 @@
 }
 body {
     margin: 0;
-    background-image: linear-gradient(to right, #dba356, #2b1d05);
+    background-color: linear-gradient(to right, #dba356, #2b1d05);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
