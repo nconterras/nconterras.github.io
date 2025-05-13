@@ -1,0 +1,44 @@
+* {
+    cursor: url(.../Documents/GitHub/nconterras.github.io/Media/latte.png), auto;
+}
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, #dba356, #2b1d05);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #124303;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+}
+nav {
+    background-color: #dba356;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 0;
+}
+nav a {
+    color: #124303;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #124303;
+    color: white;
+}
+nav a.active {
+    background-color: #124303;
+    color: white;
+}
+nav a:visited {
+    color: #124303;
+}
+/* #contact {
+    float: right;
+} */
